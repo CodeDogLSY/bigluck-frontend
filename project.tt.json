@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "ServiceReport",
+  "description": "太福",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
