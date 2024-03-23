@@ -6,6 +6,9 @@ export default {
     "pages/tab/mine/index",
     "pages/tab/dynamic/index",
     "pages/activityManage/index",
+    "pages/medicalRecords/index",
+    "pages/employeeManage/index",
+    "pages/schedulesManage/index",
   ],
   tabBar: {
     color: '#383838',

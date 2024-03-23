@@ -72,7 +72,7 @@ useDidShow(() => {
 
 const gotoServiceList = () => {
   Taro.navigateTo({
-    url: '/pages/serviceList/index',
+    url: '/pages/medicalRecords/index',
   })
 }
 const gotoServiceReport = () => {
@@ -82,21 +82,14 @@ const gotoServiceReport = () => {
 }
 
 function gotoMini () {
-  Taro.navigateToMiniProgram({
-    appId: 'wx3be3076def987c68',
-    success (res) {
-      // 打开成功
-    },
-    fail (res) {
-      console.log(res)
-    },
-    complete () { }
+  Taro.navigateTo({
+    url: '/pages/employeeManage/index',
   })
 }
+
 function gotoWebview () {
   Taro.navigateTo({
-    // url: '/pages/common/webView/index',
-    url: '/pages/serviceTeam/index',
+    url: '/pages/schedulesManage/index',
   })
 }
 

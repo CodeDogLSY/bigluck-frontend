@@ -3,7 +3,7 @@ import { createPinia } from 'pinia'
 import { useMainStore } from './stores/main'
 import Taro from '@tarojs/taro'
 
-import { Swiper, SwiperItem } from '@nutui/nutui-taro'
+import { Swiper, SwiperItem,CalendarCard } from '@nutui/nutui-taro'
 
 import './app.scss'
 
@@ -16,6 +16,7 @@ const App = createApp({
 App.use(createPinia())
 App.use(Swiper)
 App.use(SwiperItem)
+App.use(CalendarCard);
 
 const store = useMainStore()
 
