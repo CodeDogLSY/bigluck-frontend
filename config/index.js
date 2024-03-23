@@ -4,7 +4,7 @@ import NutUIResolver from '@nutui/nutui-taro/dist/resolver'
 const path = require('path')
 
 const config = {
-  projectName: 'ServiceReport',
+  projectName: 'BigLuck',
   date: '2023-5-12',
   // 开启 HTML 插件
   plugins: ['@tarojs/plugin-html'],
