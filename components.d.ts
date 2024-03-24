@@ -13,8 +13,8 @@ declare module 'vue' {
     LikeNum: typeof import('./src/components/LikeNum.vue')['default']
     Member: typeof import('./src/components/Member.vue')['default']
     NutCalendarCard: typeof import('@nutui/nutui-taro')['CalendarCard']
-    NutSwiper: typeof import('@nutui/nutui-taro')['Swiper']
-    NutSwiperItem: typeof import('@nutui/nutui-taro')['SwiperItem']
+    NutTabPane: typeof import('@nutui/nutui-taro')['TabPane']
+    NutTabs: typeof import('@nutui/nutui-taro')['Tabs']
     PhoneLogin: typeof import('./src/components/PhoneLogin.vue')['default']
     SelectPerson: typeof import('./src/components/SelectPerson.vue')['default']
   }

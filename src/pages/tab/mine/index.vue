@@ -1,53 +1,9 @@
 <template>
   <view class="mine">
     <view class="top">
-      <image :src='store.userInfo.avatar' class="avater"></image>
-      <text class="phone">{{ store.userInfo.phone ? store.userInfo.phone : store.localPhone }}</text>
-      <view class="add_family">
-        <image src='../../../assets/img/add-friend.svg' class="add-img"></image>
-        <text class="add-text" @tap="gotoFamilyManage">家人管理</text>
-      </view>
+      <image src='../../../assets/img/avater.png' class="avater"></image>
+      <text class="phone">13302548964</text>
     </view>
-
-    <view class="content">
-      <view class="bar" style="margin-bottom: 10px;">
-        <text class="title">体征数据</text>
-        <SelectPerson />
-      </view>
-
-      <template v-for="(item, index) in signList" :key="index">
-        <view class="bar" v-if="item.value">
-          <image class="type" :src="item.iconUrl"></image>
-          <text class="kind">{{ item.text }}</text>
-          <text class="value">{{ item.value }}</text>
-          <text class="date">{{ item.date }}</text>
-        </view>
-      </template>
-
-      <view class="btn_more" @tap="gotoSigns">查看更多历史数据</view>
-
-    </view>
-
-    <view class="content" style="margin-top:22px;">
-      <view class="bar" style="margin-bottom: 10px;">
-        <text class="title">更多功能</text>
-      </view>
-
-      <view class="feature">
-        <view class="item" @tap="gotoClassList" v-if="false">
-          <image class="icon" src="../../../assets/img/video.svg"></image>
-          <text class="name">课程中心</text>
-        </view>
-        <view class="item" @tap="callService">
-          <image class="icon" src="../../../assets/img/call.svg"></image>
-          <text class="name">客服电话</text>
-        </view>
-        <view class="item">
-        </view>
-      </view>
-
-    </view>
-
 
   </view>
 </template>
@@ -64,7 +20,7 @@ import { getSignList, getPersonList } from '../../../api/api'
 import { useShareAppMessage } from '@tarojs/taro'
 useShareAppMessage((res) => {
   return {
-    title: '太福|服务报告',
+    title: '太福',
     path: '/pages/auth/index',
   }
 })

@@ -1,5 +1,5 @@
 export default {
-  navigationBarTitleText: '健康贴士',
+  navigationBarTitleText: '居民管理',
   enableShareAppMessage: true,
   enableShareTimeline: true,
 }

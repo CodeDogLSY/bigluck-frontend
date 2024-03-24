@@ -1,5 +1,5 @@
 export default {
-  navigationBarTitleText: '首页',
+  navigationBarTitleText: '食物库存管理',
   usingComponents: {
     "t-video": "plugin://t-video/t-video"
   }

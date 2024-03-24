@@ -43,7 +43,7 @@ import { useMainStore } from '../../../stores/main'
 import { useShareAppMessage } from '@tarojs/taro'
 useShareAppMessage((res) => {
   return {
-    title: '太福|服务报告',
+    title: '太福',
     path: '/pages/auth/index',
   }
 })

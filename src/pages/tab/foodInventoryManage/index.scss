@@ -3,7 +3,7 @@
   padding: 10px;
   box-sizing: border-box;
 
-  .activity-list {
+  .item-list {
     // 页面样式
     width: 100%;
     display: flex;
@@ -14,41 +14,40 @@
     flex-direction: column;
     box-sizing: border-box;
 
-    .activity-item {
+    .item-item {
       // 每个活动项样式
       width: 100%;
       display: flex;
       flex-direction: row;
       align-items: center;
       line-height: 2;
-      text-align: center;
-
       &:not(:first-child):not(:last-child) {
         border-bottom: 1px solid #ddd;
       }
-
-      &.top{
+      &.top {
         background-color: rgb(121, 121, 15);
-color: white;
+        color: white;
+      }
+      text {
+        text-align: center;
       }
 
       text {
-        flex: 1
+        flex: 1;
       }
 
-      .activity-name {
+      .item-name {
         // 活动名称样式
         font-weight: 700;
       }
 
-      .activity-description {
+      .item-description {
         // 活动描述样式
       }
 
-      .activity-date {
+      .item-date {
         // 活动日期样式
       }
     }
   }
-
 }

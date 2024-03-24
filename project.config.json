@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "dist/",
   "projectname": "ServiceReport",
-  "description": "太福-服务报告-小程序",
+  "description": "太福-太福-小程序",
   "appid": "wxb9ebb5154d1a57bf",
   "setting": {
     "urlCheck": true,

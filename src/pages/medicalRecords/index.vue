@@ -8,7 +8,7 @@
         <text class="item-medication">用药状况</text>
       </view>
       <view class="item-item" v-for="item in medicalRecords.list" :key="item.itemId">
-        <text class="item-name">{{ item.resident_id }}</text>
+        <text class="item-name">{{ item.resident_name }}</text>
         <text class="item-description">{{ item.health_condition }}</text>
         <text class="item-history">{{ item.medical_history }}</text>
         <text class="item-medication">{{ item.medication }}</text>

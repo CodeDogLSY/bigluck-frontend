@@ -2,13 +2,14 @@ export default {
   pages: [
     'pages/auth/index',
     'pages/tab/home/index',
-    "pages/tab/healthTips/index",
+    "pages/tab/residentManage/index",
     "pages/tab/mine/index",
-    "pages/tab/dynamic/index",
+    "pages/tab/foodInventoryManage/index",
     "pages/activityManage/index",
     "pages/medicalRecords/index",
     "pages/employeeManage/index",
     "pages/schedulesManage/index",
+    "pages/residentDetail/index",
   ],
   tabBar: {
     color: '#383838',
@@ -19,12 +20,12 @@ export default {
       iconPath: './assets/img/home-off.png',
       selectedIconPath: './assets/img/home-on.png',
     }, {
-      "pagePath": "pages/tab/healthTips/index",
+      "pagePath": "pages/tab/residentManage/index",
       "text": "居民管理",
       iconPath: './assets/img/team-off.png',
       selectedIconPath: './assets/img/team-on.png',
     }, {
-      "pagePath": "pages/tab/dynamic/index",
+      "pagePath": "pages/tab/foodInventoryManage/index",
       "text": "食物管理",
       iconPath: './assets/img/dynamic-off.png',
       selectedIconPath: './assets/img/dynamic-on.png',

@@ -99,6 +99,17 @@ export const getMedicalRecords = (data) => {
 }
 
 /**
+ * 居民个人医疗记录列表
+ * @param {*} data
+ * @returns
+ */
+export const getMedicalRecordsByID = (data) => {
+  let path = addPath + '/medical-records/resident/'+data
+  console.log("getActivityList")
+  return apiRequest.post(path, {})
+}
+
+/**
  * 增加食物库存
  * @param {*} data
  * @returns
