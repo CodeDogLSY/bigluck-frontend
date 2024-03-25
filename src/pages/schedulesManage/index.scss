@@ -3,7 +3,7 @@
   padding: 10px;
   box-sizing: border-box;
 
-  .nut-calendar-card{
+  .nut-calendar-card {
     width: 100%;
     height: auto;
     min-height: 200px;
@@ -20,7 +20,7 @@
     flex-direction: column;
     box-sizing: border-box;
 
-    
+
 
     .item-item {
       // 每个活动项样式
@@ -29,14 +29,21 @@
       flex-direction: row;
       align-items: center;
       line-height: 2;
+
+      &.select {
+        background-color: orange;
+      }
+
       &:not(:first-child):not(:last-child) {
         border-bottom: 1px solid #ddd;
       }
-      &.top{
-background-color: rgb(121, 121, 15);
-color: white;
+
+      &.top {
+        background-color: rgb(121, 121, 15);
+        color: white;
       }
-      text{
+
+      text {
         text-align: center;
       }
 
